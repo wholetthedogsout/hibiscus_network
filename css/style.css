@@ -1,0 +1,185 @@
+.hero {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: url("../img/hero.jpg") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+        -moz-background-size: cover;
+            -o-background-size: cover;
+                background-size: cover;
+    z-index: -1;
+}
+
+.herofilter{
+    position: relative;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    opacity: 0.75;
+}
+
+.logoLarge{
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0.1;
+    overflow: visible;
+    background: url("../img/hibiscus_white_notxt.png") no-repeat center center fixed; 
+    -webkit-background-size: auto 120%;
+        -moz-background-size: auto 120%;
+            -o-background-size: auto 120%;
+                background-size: auto 120%;
+    -ms-transform: translate(50%, 0); 
+        -webkit-transform: translate(50%, 0); 
+            -o-transform: translate(50%, 0); 
+                -moz-transform: translate(50%, 0); 
+                    transform: translate(50%, 0);
+}
+
+.logowrapper{
+    position: relative;
+    width: 14%;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto; 
+    min-width: 200px;
+}
+
+.logo {
+    position: relative;
+    width: 100%;
+    min-width: 200px;
+}
+
+.main{
+    padding-top: 50px;
+    position: relative;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+
+.shout{
+    color: #fff;
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 1.5em;
+}
+
+.whisper{
+    color: #AFAFAE;
+    font-family: sans-serif;
+    font-weight: 200;
+    font-size: 1.34em;
+    line-height: 0;
+}
+
+.emailwrap{
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+    background-color: black;
+    opacity: 1;
+    height: 50px;
+}
+
+.email {
+    position: relative;
+    width: 60%;
+    padding: 10px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border-radius: 1px;
+    border: none; 
+
+}
+
+.submitemail {
+    background-color: #EF5B34;
+    border: 0;
+    color: #fff;
+    border-radius: 1px;
+    padding: 10px;
+    font-weight: 100;
+
+}
+
+.social {
+    margin-top: 2em;
+    padding-bottom: 1.5em;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+    opacity: 1;
+    height: 50px;
+    border-bottom: 0.5px solid RGBA(99, 99, 99, 0.5);
+}
+
+.socialcircle {
+    line-height: 1.2em;
+    display: inline-block;
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+    width: 40px;
+    height: 40px;
+    background-color: black;
+    border-radius: 50%;
+    color: #AFAFAE;
+    font-size:  1.2em;
+}
+
+.socialcircle i {
+    padding-top: 10px;
+}
+
+
+.copyright {
+    margin-top: 2em;
+}
+.copytext{
+    color: RGBA(99, 99, 99, 0.5);
+    font-family: sans-serif;
+    font-size: 0.5em;
+}
+
+@media only screen and (max-width: 1000px) {
+    .main{
+        width: 60%;
+    }
+}
+
+@media only screen and (max-width: 710px) {
+    .main{
+        width: 80%;
+    }
+}
+
+@media only screen and (max-width: 530px) {
+    .main{
+        width: 95%;
+    }
+
+    .shout{
+        font-size: 1em;
+    }
+
+    .whisper{
+        font-size: 0.8em;
+    }
+
+    .email {
+        margin-top: 12px;
+        width: 40%;
+        padding: 5px;
+    }
+
+    .submitemail {
+        margin-top: 12px;
+        padding: 5px;
+    }
+}
