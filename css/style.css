@@ -120,7 +120,7 @@
     }
     
     #mlb2-2914913 .subscribe-form {
-        padding: 20px;
+        padding: 15px;
         background: #000000 none!important;
         -webkit-border-radius: 0px!important;
         -moz-border-radius: 0px!important;
@@ -158,7 +158,7 @@
         line-height: 150%;
         padding: 0px!important;
         margin: 0px 0px 10px 0px;
-        color: RGBA(94, 226, 101, 1.00)!important;
+        color: #AFAFAE!important;
         font-family: sans-serif!important;
         font-size: 14px!important;
         text-align: center!important;
