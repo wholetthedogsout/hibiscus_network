@@ -146,11 +146,12 @@
     #mlb2-2914913 .subscribe-form .form-section h4 {
         margin: 0px 0px 10px 0px;
         padding: 0px!important;
-        color: #000000!important;
+        color: #fff!important;
         font-family: sans-serif!important;
         font-size: 28px!important;
         line-height: 100%;
-        text-align: left!important;
+        text-align: center!important;
+        font-weight: lighter;
     }
     
     #mlb2-2914913 .subscribe-form .form-section p {
