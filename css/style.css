@@ -158,9 +158,9 @@
         line-height: 150%;
         padding: 0px!important;
         margin: 0px 0px 10px 0px;
-        color: #fff!important;
+        color: RGBA(94, 226, 101, 1.00)!important;
         font-family: sans-serif!important;
-        font-size: 28px!important;
+        font-size: 14px!important;
         text-align: center!important;
         font-weight: lighter;
     }
@@ -169,15 +169,6 @@
         font-size: 14px!important;
     }
     
-    #mlb2-2914913 .subscribe-form .form-section .confirmation_checkbox {
-        line-height: 150%;
-        padding: 0px!important;
-        margin: 0px 0px 15px 0px !important;
-        color: #000000!important;
-        font-family: sans-serif!important;
-        font-size: 12px!important;
-        font-weight: normal !important;
-    }
     
     #mlb2-2914913 .subscribe-form .form-section .confirmation_checkbox input[type="checkbox"] {
         margin-right: 5px!important;
@@ -212,9 +203,6 @@
         margin: 0px 5px 0px 0px;
     }
     
-    #mlb2-2914913 .subscribe-form .form-section .checkbox input[type=checkbox] {
-        -webkit-appearance: checkbox;
-    }
     
     #mlb2-2914913.ml-subscribe-form .form-group .form-control {
         width: 100%;
